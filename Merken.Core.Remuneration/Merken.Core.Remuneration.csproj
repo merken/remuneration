@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+ <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Merken.Core.Common\Merken.Core.Common.csproj" />
+    <ProjectReference Include="..\Merken.Core.Remuneration.Common\Merken.Core.Remuneration.Common.csproj" />
+  </ItemGroup>
+</Project>

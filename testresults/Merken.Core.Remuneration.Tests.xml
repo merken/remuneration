@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assemblies timestamp="04/05/2018 10:35:20">
+  <assembly name="Merken.Core.Remuneration.Tests.dll" environment="64-bit .NET Standard [collection-per-class, parallel (8 threads)]" test-framework="xUnit.net 2.3.1.3858" run-date="2018-04-05" run-time="10:35:19" total="4" passed="0" failed="4" skipped="0" time="0.545" errors="0">
+    <errors />
+    <collection total="4" passed="0" failed="4" skipped="0" name="Test collection for Merken.Core.Remuneration.Tests.SalaryTests" time="0.220">
+      <test name="Merken.Core.Remuneration.Tests.SalaryTests.WhiteCollarSalaryBasic2Test" type="Merken.Core.Remuneration.Tests.SalaryTests" method="WhiteCollarSalaryBasic2Test" time="0.1450928" result="Fail">
+        <failure exception-type="System.NotSupportedException">
+          <message><![CDATA[System.NotSupportedException : Calculation of area WAGES failed, because remun component Merken.Core.Remuneration.Components.Wage.WhiteCollarWageComponent was not found]]></message>
+          <stack-trace><![CDATA[   at Merken.Core.Remuneration.Services.SalaryCalculationService.CalculateSalaryForEmployee(Int32 employerId, Int32 employeeId, Nullable`1 date) in C:\src\Merken.Core.Remuneration.Tool\Merken.Core.Remuneration\Services\SalaryCalculationService.cs:line 65
+   at Merken.Core.Remuneration.Tests.SalaryTests.WhiteCollarSalaryBasic2Test() in C:\src\Merken.Core.Remuneration.Tool\Merken.Core.Remuneration.Tests\SalaryTests.cs:line 57]]></stack-trace>
+        </failure>
+      </test>
+      <test name="Merken.Core.Remuneration.Tests.SalaryTests.BlueCollarSalaryTest" type="Merken.Core.Remuneration.Tests.SalaryTests" method="BlueCollarSalaryTest" time="0.0282048" result="Fail">
+        <failure exception-type="System.NotSupportedException">
+          <message><![CDATA[System.NotSupportedException : Calculation of area WAGES failed, because remun component Merken.Core.Remuneration.Components.Wage.BlueCollarWageComponent was not found]]></message>
+          <stack-trace><![CDATA[   at Merken.Core.Remuneration.Services.SalaryCalculationService.CalculateSalaryForEmployee(Int32 employerId, Int32 employeeId, Nullable`1 date) in C:\src\Merken.Core.Remuneration.Tool\Merken.Core.Remuneration\Services\SalaryCalculationService.cs:line 65
+   at Merken.Core.Remuneration.Tests.SalaryTests.BlueCollarSalaryTest() in C:\src\Merken.Core.Remuneration.Tool\Merken.Core.Remuneration.Tests\SalaryTests.cs:line 22]]></stack-trace>
+        </failure>
+      </test>
+      <test name="Merken.Core.Remuneration.Tests.SalaryTests.WhiteCollarBasicSalaryTest" type="Merken.Core.Remuneration.Tests.SalaryTests" method="WhiteCollarBasicSalaryTest" time="0.0210644" result="Fail">
+        <failure exception-type="System.NotSupportedException">
+          <message><![CDATA[System.NotSupportedException : Calculation of area WAGES failed, because remun component Merken.Core.Remuneration.Components.Wage.WhiteCollarWageComponent was not found]]></message>
+          <stack-trace><![CDATA[   at Merken.Core.Remuneration.Services.SalaryCalculationService.CalculateSalaryForEmployee(Int32 employerId, Int32 employeeId, Nullable`1 date) in C:\src\Merken.Core.Remuneration.Tool\Merken.Core.Remuneration\Services\SalaryCalculationService.cs:line 65
+   at Merken.Core.Remuneration.Tests.SalaryTests.WhiteCollarBasicSalaryTest() in C:\src\Merken.Core.Remuneration.Tool\Merken.Core.Remuneration.Tests\SalaryTests.cs:line 75]]></stack-trace>
+        </failure>
+      </test>
+      <test name="Merken.Core.Remuneration.Tests.SalaryTests.WhiteCollarSalaryTest" type="Merken.Core.Remuneration.Tests.SalaryTests" method="WhiteCollarSalaryTest" time="0.0260953" result="Fail">
+        <failure exception-type="System.NotSupportedException">
+          <message><![CDATA[System.NotSupportedException : Calculation of area WAGES failed, because remun component Merken.Core.Remuneration.Components.Wage.WhiteCollarWageComponent was not found]]></message>
+          <stack-trace><![CDATA[   at Merken.Core.Remuneration.Services.SalaryCalculationService.CalculateSalaryForEmployee(Int32 employerId, Int32 employeeId, Nullable`1 date) in C:\src\Merken.Core.Remuneration.Tool\Merken.Core.Remuneration\Services\SalaryCalculationService.cs:line 65
+   at Merken.Core.Remuneration.Tests.SalaryTests.WhiteCollarSalaryTest() in C:\src\Merken.Core.Remuneration.Tool\Merken.Core.Remuneration.Tests\SalaryTests.cs:line 39]]></stack-trace>
+        </failure>
+      </test>
+    </collection>
+  </assembly>
+</assemblies>
